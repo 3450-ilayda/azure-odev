@@ -2,12 +2,45 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Bulut Bilişim Ödevi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Bulut Ödevi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            border-top: 5px solid #0078d4; /* Azure Mavisi */
+        }
+        h2 { color: #333; margin-bottom: 5px; }
+        p { color: #666; font-size: 18px; margin: 10px 0; }
+        .badge {
+            background: #e1f0fe;
+            color: #0078d4;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ad Soyad: İlayda Nur EREN</h1>
-    <h1>Öğrenci No: 231002082</h1>
-    <hr>
-    <p>Bu uygulama Azure App Service ve GitHub Actions ile otomatik olarak dağıtılmıştır.</p>
+    <div class="card">
+        <div class="badge">Azure App Service & GitHub Actions</div>
+        <h2>İlayda Nur EREN</h2>
+        <p><strong>Öğrenci No:</strong> 231002082</p>
+        <hr>
+        <p style="font-size: 14px; color: #888;">Bu uygulama CI/CD pipeline ile otomatik olarak dağıtılmıştır.</p>
+    </div>
 </body>
 </html>
